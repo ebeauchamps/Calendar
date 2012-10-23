@@ -193,7 +193,7 @@ $L = $lang = array(
 'Enkel op',
 
 'year_s' =>
-'ja(a)r(en)',
+'jaar',
 
 'end' =>
 'Einde',
@@ -237,7 +237,7 @@ $L = $lang = array(
 'Evenementnaam',
 
 'recurs' =>
-'Herhaalt',
+'Herhalend',
 
 'first_date' =>
 'Eerste datum',
@@ -348,7 +348,7 @@ $L = $lang = array(
 // -------------------------------------
 
 'calendar_permissions_desc' =>
-"Toelatingen kunnen ingesteld worden bij het maken van een kalender, of hier aangepast worden. Super Admins en de geselecteerde groepen in 'Verleen volledige toegang voor groepen' hebben toegang tot alle kalenders. Geselecteerde groepen in 'Weiger alle toegang voor groepen' hebben tot geen enkel kalender toegang.",
+"Toelatingen kunnen ingesteld worden bij het maken van een kalender, of hier aangepast worden. Super Admins en de geselecteerde groepen in 'Verleen volledige toegang voor groepen' hebben toegang tot alle kalenders. Geselecteerde groepen in 'Weiger alle toegang voor groepen' hebben tot geen enkele kalender toegang.",
 
 'allowed_groups' =>
 "Toegelaten groepen",
@@ -373,7 +373,7 @@ $L = $lang = array(
 'Weiger alle toegang voor groepen',
 
 'deny_takes_precedence' =>
-"heeft voorrang op Allemaal toelaten",
+"heeft voorrang op volledige toegang",
 
 'permissions_saved' =>
 "Toelatingen opgeslagen",
@@ -385,16 +385,16 @@ $L = $lang = array(
 "Selecteer de groepen die de kalender en zijn evenementen mogen wijzigen. (Super Admins hebben altijd toegang tot alle kalenders). Als een groep niet getoond wordt, zit die ofwel in de Alles toestaan- of Alles weigerenlijst onder de tab Toelatingen in het Calendar controlepaneel.",
 
 'disallowed_behavior_for_edit_page' =>
-"Niet toegestaan bij wijzigen",
+"Leden die evenement niet kunnen wijzigen zien evenement in lijst",
 
 'none' =>
-"Geen",
+"Wel",
 
 'search_filter' =>
-"Zoekfilter",
+"Niet",
 
 'disable_link' =>
-"Link verwijderen",
+"Wel, maar niet aanklikbaar",
 
 'permission_dialog_title' =>
 "Fout met toelatingen",
