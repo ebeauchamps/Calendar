@@ -31,38 +31,38 @@ $L = $lang = array(
 //----------------------------------------
 
 'calendars_field_group_already_exists' =>
-'Le groupe de champs "Calendrier : Calendriers" existe déjà.',
+'Le groupe de champs "Calendrier : Calendriers" existe dÃ©jÃ .',
 
 'events_field_group_already_exists' =>
-'Le groupe de champs "Calendrier : Événements" existe déjà.',
+'Le groupe de champs "Calendrier : Ã‰vÃ©nements" existe dÃ©jÃ .',
 
 'calendars_weblog_already_exists' =>
-'Le canal "Calendrier : Calendriers" existe déjà.',
+'Le canal "Calendrier : Calendriers" existe dÃ©jÃ .',
 
 'events_weblog_already_exists' =>
-'Le canal "Calendrier : Événements" existe déjà.',
+'Le canal "Calendrier : Ã‰vÃ©nements" existe dÃ©jÃ .',
 
 'cannot_install' =>
-'Le module Calendrier ne peut être installé tant que ces erreurs ne sont pas corrigées :',
+'Le module Calendrier ne peut Ãªtre installÃ© tant que ces erreurs ne sont pas corrigÃ©es :',
 
 //----------------------------------------
 //  Upgradeification
 //----------------------------------------
 
 'update_calendar' =>
-'Mettre à jour Calendrier',
+'Mettre Ã  jour Calendrier',
 
 "update_successful"	=>
-"Le module a été mis à jour avec succès.",
+"Le module a Ã©tÃ© mis Ã  jour avec succÃ¨s.",
 
 'calendar_update_message' =>
-'Une nouvelle version de Calendrier est disponible. Souhaitez-vous appliquer la mise à jour ?',
+'Une nouvelle version de Calendrier est disponible. Souhaitez-vous appliquer la mise Ã  jour ?',
 
 'update_failure' =>
-'La mise à jour du module Calendrier a échoué.',
+'La mise Ã  jour du module Calendrier a Ã©chouÃ©.',
 
 'update_successful' =>
-'Le module Calendrier a été mis à jour avec succès.',
+'Le module Calendrier a Ã©tÃ© mis Ã  jour avec succÃ¨s.',
 
 //----------------------------------------
 //  Main Menu
@@ -72,7 +72,7 @@ $L = $lang = array(
 'Calendriers',
 
 'events' =>
-'Événements',
+'Ã‰vÃ©nements',
 
 'occurrences' =>
 'Occurrences',
@@ -84,7 +84,7 @@ $L = $lang = array(
 'Autorisations',
 
 'preferences' =>
-'Préférences',
+'PrÃ©fÃ©rences',
 
 'documentation' =>
 'Documentation en ligne',
@@ -100,25 +100,25 @@ $L = $lang = array(
 'Filtre', /**verb or noun? verb => 'Filtrer' */
 
 'remove_edited_occurrences' =>
-'Supprimer les occurrences éditées',
+'Supprimer les occurrences Ã©ditÃ©es',
 
 'remove_edited_occurrences_desc' =>
-'Décocher ceci si vous ne faîtes qu\'éditer les détails de cet événement. Il est recommandé de LAISSER CECI COCHÉ si vous changez les HORAIRES, DATES ou DATES DE FIN, au risque, dans le cas contraire, de créer des événements orphelins.',
+'DÃ©cocher ceci si vous ne faÃ®tes qu\'Ã©diter les dÃ©tails de cet Ã©vÃ©nement. Il est recommandÃ© de LAISSER CECI COCHÃ‰ si vous changez les HORAIRES, DATES ou DATES DE FIN, au risque, dans le cas contraire, de crÃ©er des Ã©vÃ©nements orphelins.',
 
 'create_calendar_first' =>
-'Vous devez d\'abord créer un calendrier avant de créer un événement.',
+'Vous devez d\'abord crÃ©er un calendrier avant de crÃ©er un Ã©vÃ©nement.',
 
 'select_a_calendar' =>
-'Sélectionner un calendrier',
+'SÃ©lectionner un calendrier',
 
 'new_date' =>
 'Nouvelle date',
 
 'add_rule' =>
-'Ajouter une règle',
+'Ajouter une rÃ¨gle',
 
 'editing_occurrence' =>
-'L\'occurrence <strong>%date%</strong> de <strong>%title%</strong> est en cours d\'édition',
+'L\'occurrence <strong>%date%</strong> de <strong>%title%</strong> est en cours d\'Ã©dition',
 
 'type' =>
 'Type',
@@ -130,7 +130,7 @@ $L = $lang = array(
 'Exclure',
 
 'repeat' =>
-'Répéter',
+'RÃ©pÃ©ter',
 
 'none' =>
 'Aucun',
@@ -148,16 +148,16 @@ $L = $lang = array(
 'Annuellement',
 
 'select_dates' =>
-'Sélectionner les dates',
+'SÃ©lectionner les dates',
 
 'all_day_event' =>
-'Événement sur la journée entière',
+'Ã‰vÃ©nement sur la journÃ©e entiÃ¨re',
 
 'from' =>
-'À partir de',
+'Ã€ partir de',
 
 'to' =>
-'Jusqu\'à',
+'Jusqu\'Ã ',
 
 'every' =>
 'Tous/toutes les',
@@ -166,22 +166,22 @@ $L = $lang = array(
 'jour(s)',
 
 'week_s_on' =>
-'semaine(s)', /**à voir dans le contexte : "semaine(s) à venir ?" */
+'semaine(s)', /**Ã  voir dans le contexte : "semaine(s) Ã  venir ?" */
 
 'at' =>
-'à',
+'Ã ',
 
 'month_s_by_day_of' =>
-'mois par jour de', /**à voir dans le contexte */
+'mois par jour de', /**Ã  voir dans le contexte */
 
 '1st' =>
 '1er',
 
 '2nd' =>
-'2d', /** norme typographique française : 2d/2de et non 2nd/2nde */
+'2d', /** norme typographique franÃ§aise : 2d/2de et non 2nd/2nde */
 
 '3rd' =>
-'3e', /** norme typographique française : 3e et non 3ième ou 3ème */
+'3e', /** norme typographique franÃ§aise : 3e et non 3iÃ¨me ou 3Ã¨me */
 
 '4th' =>
 '4e',
@@ -190,10 +190,10 @@ $L = $lang = array(
 '5e',
 
 'only_on' =>
-'Seulement le', /**à voir dans le contexte */
+'Seulement le', /**Ã  voir dans le contexte */
 
 'year_s' =>
-'année(s)',
+'annÃ©e(s)',
 
 'end' =>
 'Fin',
@@ -205,7 +205,7 @@ $L = $lang = array(
 'par date',
 
 'after' =>
-'Après',
+'AprÃ¨s',
 
 'time_s' =>
 'horaire(s)',
@@ -224,29 +224,29 @@ $L = $lang = array(
 'Statut',
 
 'total_events' =>
-'Nombre total d\'événements',
+'Nombre total d\'Ã©vÃ©nements',
 
 //----------------------------------------
 //  CP Events
 //----------------------------------------
 
 'event_id' =>
-'ID de l\'événement',
+'ID de l\'Ã©vÃ©nement',
 
 'event_name' =>
-'Nom de l\'événement',
+'Nom de l\'Ã©vÃ©nement',
 
 'recurs' =>
-'Se répète', /** à voir dans le contexte */
+'Se rÃ©pÃ¨te', /** Ã  voir dans le contexte */
 
 'first_date' =>
-'Première date',
+'PremiÃ¨re date',
 
 'last_date' =>
-'Dernière date',
+'DerniÃ¨re date',
 
 'filter_events' =>
-"Filtrer les événements",
+"Filtrer les Ã©vÃ©nements",
 
 'filter_by_calendar' =>
 'Filtrer par calendrier',
@@ -255,7 +255,7 @@ $L = $lang = array(
 'Filtrer par statut',
 
 'filter_by_recurs' =>
-'Filtrer selon ceux qui se répètent', /** à voir dans le contexte */
+'Filtrer selon ceux qui se rÃ©pÃ¨tent', /** Ã  voir dans le contexte */
 
 'order_by' =>
 'Trier selon',
@@ -264,10 +264,10 @@ $L = $lang = array(
 'La date est',
 
 'event_id' =>
-'ID de l\'événement',
+'ID de l\'Ã©vÃ©nement',
 
 'event_title' =>
-'Titre de l\'événement',
+'Titre de l\'Ã©vÃ©nement',
 
 'calendar_name' =>
 'Nom du calendrier',
@@ -276,25 +276,25 @@ $L = $lang = array(
 'Statut',
 
 'recurs' =>
-'Se répète', /** à voir dans le contexte */
+'Se rÃ©pÃ¨te', /** Ã  voir dans le contexte */
 
 'first_date_is' =>
-'La première date est',
+'La premiÃ¨re date est',
 
 'last_date' =>
-'Dernière date',
+'DerniÃ¨re date',
 
 'ascending' =>
 'Croissant',
 
 'descending' =>
-'Décroissant',
+'DÃ©croissant',
 
 'or_later' =>
 'Ou plus tard',
 
 'or_earlier' =>
-'Ou plus tôt',
+'Ou plus tÃ´t',
 
 'this_date' =>
 'Cette date',
@@ -303,7 +303,7 @@ $L = $lang = array(
 'Horaire',
 
 'all_day' =>
-'Journée entière',
+'JournÃ©e entiÃ¨re',
 
 //----------------------------------------
 //  CP Events Delete
@@ -313,16 +313,16 @@ $L = $lang = array(
 'Supprimer',
 
 'delete_events' =>
-'Supprimer les événements',
+'Supprimer les Ã©vÃ©nements',
 
 'delete_events_title' =>
-'Supprimer l\'(es) événement(s) ?',
+'Supprimer l\'(es) Ã©vÃ©nement(s) ?',
 
 'delete_events_question' =>
-'Voulez-vous VRAIMENT supprimer {COUNT} événement(s) ?',
+'Voulez-vous VRAIMENT supprimer {COUNT} Ã©vÃ©nement(s) ?',
 
 'events_deleted' =>
-'Événement(s) ont été supprimé(s)',
+'Ã‰vÃ©nement(s) ont Ã©tÃ© supprimÃ©(s)',
 
 //----------------------------------------
 //  CP Occurrences
@@ -332,7 +332,7 @@ $L = $lang = array(
 'ID de l\'occurrence',
 
 'event_date' =>
-'Date de l\'événement',
+'Date de l\'Ã©vÃ©nement',
 
 'limit' =>
 'Limite',
@@ -348,19 +348,19 @@ $L = $lang = array(
 // -------------------------------------
 
 'calendar_permissions_desc' =>
-"Les autorisations peuvent être définies lors de la création du calendrier, ou modifiées ici. Les Supers Administrateurs et les groupes sélectionnés dans 'Autoriser l\'accès complet aux groupes :' ont accès à tous les calendriers. Les groupes sélectionnés dans 'Interdire tout accès aux groupes :' n'auront accès à aucun calendrier.",
+"Les autorisations peuvent Ãªtre dÃ©finies lors de la crÃ©ation du calendrier, ou modifiÃ©es ici. Les Supers Administrateurs et les groupes sÃ©lectionnÃ©s dans 'Autoriser l\'accÃ¨s complet aux groupes :' ont accÃ¨s Ã  tous les calendriers. Les groupes sÃ©lectionnÃ©s dans 'Interdire tout accÃ¨s aux groupes :' n'auront accÃ¨s Ã  aucun calendrier.",
 
 'allowed_groups' =>
-"Groupes autorisés",
+"Groupes autorisÃ©s",
 
 'allow_full_access' =>
-'Autoriser l\'accès complet aux groupes :',
+'Autoriser l\'accÃ¨s complet aux groupes :',
 
 'permissions_enabled' =>
-'Autorisations activées',
+'Autorisations activÃ©es',
 
 'save_permissions' =>
-'Autorisations enregistrées',
+'Autorisations enregistrÃ©es',
 
 'all_groups' =>
 'Tous les groupes',
@@ -370,22 +370,22 @@ $L = $lang = array(
 'Les autoriser tous',
 
 'deny_all_access' =>
-'Interdire tout accès aux groupes :',
+'Interdire tout accÃ¨s aux groupes :',
 
 'deny_takes_precedence' =>
-"Est prioritaire sur le paramétrage calendrier 'Les autoriser tous'",
+"Est prioritaire sur le paramÃ©trage calendrier 'Les autoriser tous'",
 
 'permissions_saved' =>
-"Autorisations enregistrées",
+"Autorisations enregistrÃ©es",
 
 'group_permissions' =>
 'Autorisations de groupe',
 
 'permissions_instructions' =>
-"Choisissez les groupes que vous autorisez à éditer le calendrier et ses événements (Les Supers Administrateurs ont toujours accès à tous les calendriers). Si un groupe n'est pas visible, c'est qu'il se trouve déjà dans l'onglet Autorisations du panneau de contrôle calendrier (listes Les Autoriser Tous ou Les Interdire Tous).",
+"Choisissez les groupes que vous autorisez Ã  Ã©diter le calendrier et ses Ã©vÃ©nements (Les Supers Administrateurs ont toujours accÃ¨s Ã  tous les calendriers). Si un groupe n'est pas visible, c'est qu'il se trouve dÃ©jÃ  dans l'onglet Autorisations du panneau de contrÃ´le calendrier (listes Les Autoriser Tous ou Les Interdire Tous).",
 
 'disallowed_behavior_for_edit_page' =>
-"Comportement interdit pour la page d'édition", /** Fonctionnement plutôt que Comportement ? */
+"Comportement interdit pour la page d'Ã©dition", /** Fonctionnement plutÃ´t que Comportement ? */
 
 'none' =>
 "Aucun",
@@ -394,7 +394,7 @@ $L = $lang = array(
 "Filtre de recherche",
 
 'disable_link' =>
-"Lien de désactivation", /** à revoir dans le contexte */
+"Lien de dÃ©sactivation", /** Ã  revoir dans le contexte */
 
 'permission_dialog_title' =>
 "Erreur d'autorisation",
@@ -406,10 +406,10 @@ $L = $lang = array(
 //----------------------------------------
 
 'preference' =>
-'Préférence',
+'PrÃ©fÃ©rence',
 
 'setting' =>
-'Paramètre',
+'ParamÃ¨tre',
 
 'description' =>
 'Description',
@@ -424,7 +424,7 @@ $L = $lang = array(
 'Type d\'horloge',
 
 'clock_type_description' =>
-'Dans le panneau de contrôle, utiliser une horloge sur une base 12 heures ou 24 heures ?',
+'Dans le panneau de contrÃ´le, utiliser une horloge sur une base 12 heures ou 24 heures ?',
 
 '12_hour' =>
 '12 heures',
@@ -433,37 +433,37 @@ $L = $lang = array(
 '24 heures',
 
 'default_timezone' =>
-'Fuseau horaire par défaut',
+'Fuseau horaire par dÃ©faut',
 
 'default_timezone_description' =>
-'Fuseau horaire par défaut pour les nouveaux calendriers.',
+'Fuseau horaire par dÃ©faut pour les nouveaux calendriers.',
 
 'preferences_updated' =>
-'Préférences mises à jour.',
+'PrÃ©fÃ©rences mises Ã  jour.',
 
 'default_date_format' =>
 'Format de date',
 
 'default_date_format_description' =>
-'Format de date par défaut.',
+'Format de date par dÃ©faut.',
 
 'default_time_format' =>
-'Format d\'heure par défaut',
+'Format d\'heure par dÃ©faut',
 
 'default_time_format_description' =>
-'Format d\'heure par défaut pour les nouveaux calendriers.',
+'Format d\'heure par dÃ©faut pour les nouveaux calendriers.',
 
 'calendar_weblog' =>
 'Canal (ou canaux) pour le calendrier',
 
 'calendar_weblog_description' =>
-'Canal (ou canaux) devant être désigné(s) en tant que canal (ou canaux) pour gérer le calendrier',
+'Canal (ou canaux) devant Ãªtre dÃ©signÃ©(s) en tant que canal (ou canaux) pour gÃ©rer le calendrier',
 
 'event_weblog' =>
-'Canal (ou canaux) pour les événements',
+'Canal (ou canaux) pour les Ã©vÃ©nements',
 
 'event_weblog_description' =>
-'Canal (ou canaux) devant être désigné(s) en tant que canal (ou canaux) pour gérer les événements',
+'Canal (ou canaux) devant Ãªtre dÃ©signÃ©(s) en tant que canal (ou canaux) pour gÃ©rer les Ã©vÃ©nements',
 
 //----------------------------------------
 //  Buttons
@@ -473,38 +473,38 @@ $L = $lang = array(
 'Enregistrer',
 
 'delete_selected_items' =>
-'Supprimer les éléments sélectionnés',
+'Supprimer les Ã©lÃ©ments sÃ©lectionnÃ©s',
 
 //----------------------------------------
 //  Errors
 //----------------------------------------
 
 'no_results' =>
-'Aucun résultat.',
+'Aucun rÃ©sultat.',
 
 'no_title' =>
 'Aucun titre',
 
 'invalid_request' =>
-"Requête invalide",
+"RequÃªte invalide",
 
 'calendar_module_disabled' =>
-"Le module Calendrier est actuellement désactivé. Merci de vous assurer qu'il est installé et à jour en vous rendant sur le panneau de contrôle du module dans le Panneau de Contrôle Expressionengine",
+"Le module Calendrier est actuellement dÃ©sactivÃ©. Merci de vous assurer qu'il est installÃ© et Ã  jour en vous rendant sur le panneau de contrÃ´le du module dans le Panneau de ContrÃ´le Expressionengine",
 
 'disable_module_to_disable_extension' =>
-"Pour désactiver cette extension, vous devez désactiver son <a href='%url%'>module</a> correspondant.",
+"Pour dÃ©sactiver cette extension, vous devez dÃ©sactiver son <a href='%url%'>module</a> correspondant.",
 
 'enable_module_to_enable_extension' =>
 "Pour activer cette extension, vous devez installer son <a href='%url%'>module</a> correspondant.",
 
 'cp_jquery_requred' =>
-"L'extension 'jQuery pour le Panneau de Contrôle' doit être <a href='%extensions_url%'>activée</a> pour utiliser ce module.",
+"L'extension 'jQuery pour le Panneau de ContrÃ´le' doit Ãªtre <a href='%extensions_url%'>activÃ©e</a> pour utiliser ce module.",
 
 'invalid_weblog_id' =>
 'ID de canal invalide',
 
 'invalid_entry_id' =>
-'ID d\'entrée invalide',
+'ID d\'entrÃ©e invalide',
 
 'invalid_site_id' =>
 'ID de site invalide',
@@ -516,13 +516,13 @@ $L = $lang = array(
 'Date invalide',
 
 'invalid_start_date' =>
-'Date de début invalide',
+'Date de dÃ©but invalide',
 
 'invalid_end_date' =>
 'Date de fin invalide',
 
 'invalid_year' =>
-'Année invalide',
+'AnnÃ©e invalide',
 
 'invalid_month' =>
 'Mois invalide',
@@ -537,7 +537,7 @@ $L = $lang = array(
 'Horaire invalide',
 
 'invalid_start_time' =>
-'Horaire de démarrage invalide',
+'Horaire de dÃ©marrage invalide',
 
 'invalid_end_time' =>
 'Horaire de fin invalide',
@@ -549,16 +549,16 @@ $L = $lang = array(
 'Minute invalide',
 
 'invalid_repeat_dates' =>
-'Dates répétées invalides',
+'Dates rÃ©pÃ©tÃ©es invalides',
 
 'invalid_calendar_permissions' =>
-'Vous n\'êtes pas autorisé à éditer ou à ajouter des événements à ce calendrier',
+'Vous n\'Ãªtes pas autorisÃ© Ã  Ã©diter ou Ã  ajouter des Ã©vÃ©nements Ã  ce calendrier',
 
 'no_permissions_for_any_calendars' =>
-"Vous n'êtes pas autorisé à ajouter ou à éditer des événements sur un quelconque calendrier",
+"Vous n'Ãªtes pas autorisÃ© Ã  ajouter ou Ã  Ã©diter des Ã©vÃ©nements sur un quelconque calendrier",
 
 'invalid_permissions_json_request' =>
-"Requête JSON invalide. Le group_id et EE 2.x+ sont exigés.",
+"RequÃªte JSON invalide. Le group_id et EE 2.x+ sont exigÃ©s.",
 
 //----------------------------------------
 //  Days /** Normalement, pas de majuscule. Sauf si c'est le 1er mot de la phrase. Choix fait de la conserver */
@@ -636,7 +636,7 @@ $L = $lang = array(
 'Dim',
 
 //----------------------------------------
-//  Days - Short /** il n'y a pas d'abréviation courte officielle pour les jours de la semaine en langue française ; abréviation faîte sur 3 caractères */
+//  Days - Short /** il n'y a pas d'abrÃ©viation courte officielle pour les jours de la semaine en langue franÃ§aise ; abrÃ©viation faÃ®te sur 3 caractÃ¨res */
 //----------------------------------------
 
 'day_1_short' =>
@@ -686,7 +686,7 @@ $L = $lang = array(
 'D',
 
 //----------------------------------------
-//  Ordinal suffixes /** abréviations officielles des ordinaux en français : er/ère ; d/de ; e  .Besoin de vérifier dans le contexte si ces données sont nécessaires*/
+//  Ordinal suffixes /** abrÃ©viations officielles des ordinaux en franÃ§ais : er/Ã¨re ; d/de ; e  .Besoin de vÃ©rifier dans le contexte si ces donnÃ©es sont nÃ©cessaires*/
 //----------------------------------------
 
 'suffix_0' =>
@@ -757,7 +757,7 @@ $L = $lang = array(
 'janvier',
 
 'month_2_full' =>
-'février',
+'fÃ©vrier',
 
 'month_3_full' =>
 'mars',
@@ -775,7 +775,7 @@ $L = $lang = array(
 'juillet',
 
 'month_8_full' =>
-'août',
+'aoÃ»t',
 
 'month_9_full' =>
 'septembre',
@@ -787,7 +787,7 @@ $L = $lang = array(
 'novembre',
 
 'month_12_full' =>
-'décembre',
+'dÃ©cembre',
 
 //----------------------------------------
 //  Months - 3 letters
@@ -797,7 +797,7 @@ $L = $lang = array(
 'jan',
 
 'month_2_3' =>
-'fév',
+'fÃ©v',
 
 'month_3_3' =>
 'mar',
@@ -809,13 +809,13 @@ $L = $lang = array(
 'mai',
 
 'month_6_3' =>
-'jun', /** jun conservé pour différencier de juillet */
+'jun', /** jun conservÃ© pour diffÃ©rencier de juillet */
 
 'month_7_3' =>
-'jul', /** jul conservé pour différencier de juin */
+'jul', /** jul conservÃ© pour diffÃ©rencier de juin */
 
 'month_8_3' =>
-'aoû',
+'aoÃ»',
 
 'month_9_3' =>
 'sep',
@@ -827,10 +827,10 @@ $L = $lang = array(
 'nov',
 
 'month_12_3' =>
-'déc',
+'dÃ©c',
 
 //----------------------------------------
-//  am/pm /** abréviations conservées telles quelles car issues du latin */
+//  am/pm /** abrÃ©viations conservÃ©es telles quelles car issues du latin */
 //----------------------------------------
 
 'am' =>
@@ -874,16 +874,16 @@ $L = $lang = array(
 'mois',
 
 'year' =>
-'année',
+'annÃ©e',
 
 'ago' =>
-'', /** pas de traduction, à voir dans contexte : "5 years ago => il y a 5 années => 5 années auparavant ?" */
+'', /** pas de traduction, Ã  voir dans contexte : "5 years ago => il y a 5 annÃ©es => 5 annÃ©es auparavant ?" */
 
 'begin' =>
-'débute',
+'dÃ©bute',
 
 'last' =>
-'dernier/dernière', /** à voir dans contexte : dernier mois / dernière année => conserver les 2 */
+'dernier/derniÃ¨re', /** Ã  voir dans contexte : dernier mois / derniÃ¨re annÃ©e => conserver les 2 */
 
 //----------------------------------------
 //  Time parameters
@@ -903,7 +903,7 @@ $L = $lang = array(
 //----------------------------------------
 
 'summary' =>
-'Résumé',
+'RÃ©sumÃ©',
 
 'location' =>
 'Emplacement',
@@ -915,16 +915,16 @@ $L = $lang = array(
 'Adresse URL du fichier iCalendar (.ics)',
 
 'ics_url_desc' =>
-"Ajouter une ou plusieurs adresses URL vers des fichiers .ics - séparées sur des lignes différentes - à importer dans ce calendrier. Tous les horaires importés seront ajustés selon les paramètres de fuseau horaire de ce calendrier.",
+"Ajouter une ou plusieurs adresses URL vers des fichiers .ics - sÃ©parÃ©es sur des lignes diffÃ©rentes - Ã  importer dans ce calendrier. Tous les horaires importÃ©s seront ajustÃ©s selon les paramÃ¨tres de fuseau horaire de ce calendrier.",
 
 'ics_url_stub' =>
-"Tous les horaires importés seront ajustés selon les paramètres de fuseau horaire de ce calendrier.",
+"Tous les horaires importÃ©s seront ajustÃ©s selon les paramÃ¨tres de fuseau horaire de ce calendrier.",
 
 'time_format_label' =>
 'Format d\'heure',
 
 'time_format_desc' =>
-'Format d\'heure par défaut à utiliser pour ce calendrier.',
+'Format d\'heure par dÃ©faut Ã  utiliser pour ce calendrier.',
 
 'timezone' =>
 'Fuseau horaire',
