@@ -106,7 +106,7 @@ $L = $lang = array(
 'Décocher ceci si vous ne faîtes qu\'éditer les détails de cet événement. Il est recommandé de LAISSER CECI COCHÉ si vous changez les HORAIRES, DATES ou DATES DE FIN, au risque, dans le cas contraire, de créer des événements orphelins.',
 
 'create_calendar_first' =>
-'Vous devez d'\'abord créer un calendrier avant de créer un événement.',
+'Vous devez d\'abord créer un calendrier avant de créer un événement.',
 
 'select_a_calendar' =>
 'Sélectionner un calendrier',
