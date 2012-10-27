@@ -21,7 +21,7 @@ $L = $lang = array(
 'Calendario',
 
 'calendar_module_description' =>
-'Un m&oacute;dulo de calendario completo para ExpressionEngine',
+'Un módulo de calendario completo para ExpressionEngine',
 
 'calendar_module_version' =>
 'Calendario',
@@ -43,7 +43,7 @@ $L = $lang = array(
 'El weblog "Calendario: Eventos" ya existe.',
 
 'cannot_install' =>
-'El M&oacute;dulo de Calendario no puede ser instalado hasta que se corrigen estos errores:',
+'El Módulo de Calendario no puede ser instalado hasta que se corrigen estos errores:',
 
 //----------------------------------------
 //  Upgradeification
@@ -53,16 +53,16 @@ $L = $lang = array(
 'Actualizar Calendario',
 
 "update_successful"	=>
-"El m&oacute;dulo ha sido instalado con &eacute;xito.",
+"El módulo ha sido instalado con éxito.",
 
 'calendar_update_message' =>
-'Una nueva versi&oacute;n de Calendario esta disponible. &iquest;Desea actualizarlo?',
+'Una nueva versión de Calendario esta disponible. ¿Desea actualizarlo?',
 
 'update_failure' =>
-'El M&oacute;dulo de Calendario no ha sido actualizado con &eacute;xito.',
+'El Módulo de Calendario no ha sido actualizado con éxito.',
 
 'update_successful' =>
-'El M&oacute;dulo de Calendario ha sido actualizado con &eacute;xito.',
+'El Módulo de Calendario ha sido actualizado con éxito.',
 
 //----------------------------------------
 //  Main Menu
@@ -87,10 +87,10 @@ $L = $lang = array(
 'Preferencias',
 
 'documentation' =>
-'Documentaci&oacute;n en L&iacute;nea',
+'Documentación en Línea',
 
 'online_documentation' =>
-'Documentaci&oacute;n en L&iacute;nea',
+'Documentación en Línea',
 
 //----------------------------------------
 //  Publish/Edit
@@ -103,7 +103,7 @@ $L = $lang = array(
 'Borrar Repeticiones Editados',
 
 'remove_edited_occurrences_desc' =>
-'Desmarque esto si solo est&aacute; editando detalles sobre &eacute;ste evento. Se recomienda que se DEJE ESTO MARCADO si esta cambiando HORARIOS, FECHAS, o FECHAS FINALES de eventos, si no se crear&aacute; eventos hu&eacute;rfanos.',
+'Desmarque esto si solo está editando detalles sobre éste evento. Se recomienda que se DEJE ESTO MARCADO si esta cambiando HORARIOS, FECHAS, o FECHAS FINALES de eventos, si no se creará eventos huérfanos.',
 
 'create_calendar_first' =>
 'Debe crear un calendario antes de crear un evento.',
@@ -115,10 +115,10 @@ $L = $lang = array(
 'Fecha Nueva',
 
 'add_rule' =>
-'A&ntilde;adir Regla',
+'Añadir Regla',
 
 'editing_occurrence' =>
-'Editando el <strong>%date%</strong> repetici&oacute;n de <strong>%title%</strong>',
+'Editando el <strong>%date%</strong> repetición de <strong>%title%</strong>',
 
 'type' =>
 'Tipo',
@@ -151,7 +151,7 @@ $L = $lang = array(
 'Seleccione Fechas',
 
 'all_day_event' =>
-'Evento de Todo el D&iacute;a',
+'Evento de Todo el Día',
 
 'from' =>
 'Desde',
@@ -163,7 +163,7 @@ $L = $lang = array(
 'Cada',
 
 'day_s' =>
-'d&iacute;a(s)',
+'día(s)',
 
 'week_s_on' =>
 'semana(s) en',
@@ -172,28 +172,28 @@ $L = $lang = array(
 'en',
 
 'month_s_by_day_of' =>
-'mes(es) por d&iacute;a de',
+'mes(es) por día de',
 
 '1st' =>
-'1&deg;',
+'1º',
 
 '2nd' =>
-'2&deg;',
+'2º',
 
 '3rd' =>
-'3&deg;',
+'3º',
 
 '4th' =>
-'4&deg;',
+'4º',
 
 '5th' =>
-'5&deg;',
+'5º',
 
 'only_on' =>
 'Solo en',
 
 'year_s' =>
-'a&ntilde;o(s)',
+'año(s)',
 
 'end' =>
 'Final',
@@ -205,7 +205,7 @@ $L = $lang = array(
 'por Fecha',
 
 'after' =>
-'Despu&eacute;s',
+'Después',
 
 'time_s' =>
 'hora(s)',
@@ -243,7 +243,7 @@ $L = $lang = array(
 'Primera Fecha',
 
 'last_date' =>
-'&Uacute;ltima Fecha',
+'Última Fecha',
 
 'filter_events' =>
 "Filtrar Eventos",
@@ -267,7 +267,7 @@ $L = $lang = array(
 'ID del Evento',
 
 'event_title' =>
-'T&iacute;tulo del Evento',
+'Título del Evento',
 
 'calendar_name' =>
 'Nombre del Calendario',
@@ -282,7 +282,7 @@ $L = $lang = array(
 'Primera Fecha Es',
 
 'last_date' =>
-'&Uacute;ltima Fecha',
+'última Fecha',
 
 'ascending' =>
 'Ascendente',
@@ -291,19 +291,19 @@ $L = $lang = array(
 'Descendente',
 
 'or_later' =>
-'O M&aacute;s Tarde',
+'O Más Tarde',
 
 'or_earlier' =>
-'O M&aacute;s Temprano',
+'O Más Temprano',
 
 'this_date' =>
-'&Eacute;sta Fecha',
+'ésta Fecha',
 
 'time' =>
 'Hora',
 
 'all_day' =>
-'Todo el D&iacute;a',
+'Todo el Día',
 
 //----------------------------------------
 //  CP Events Delete
@@ -316,10 +316,10 @@ $L = $lang = array(
 'Borrar Eventos',
 
 'delete_events_title' =>
-'&iquest;Borrar Evento(s)?',
+'¿Borrar Evento(s)?',
 
 'delete_events_question' =>
-'&iquest;Desea borrar {COUNT} evento(s)?',
+'¿Desea borrar {COUNT} evento(s)?',
 
 'events_deleted' =>
 'Los Evento(s) han sido borrados',
@@ -329,26 +329,26 @@ $L = $lang = array(
 //----------------------------------------
 
 'occurrence_id' =>
-'ID de la Repetici&oacute;n',
+'ID de la Repetición',
 
 'event_date' =>
 'Fecha del Evento',
 
 'limit' =>
-'L&iacute;mite',
+'Límite',
 
 'page_limit' =>
-'L&iacute;mite de P&aacute;gina',
+'Límite de Página',
 
 'occurrences_limit' =>
-'L&iacute;mite de Repeticiones',
+'Límite de Repeticiones',
 
 // -------------------------------------
 //	Permissions
 // -------------------------------------
 
 'calendar_permissions_desc' =>
-"Los permisos pueden ser fijados cuando se crea el calendario, o cambiados aqu&iacute;. Super Admins y los grupos seleccionados en 'Permitir Acceso Completo Para Grupos' tienen acceso a todos los calendarios. Grupos seleccionados en 'Negar Acseso Completo Para Grupos' no tendran acceso a ninguno de los calendarios.",
+"Los permisos pueden ser fijados cuando se crea el calendario, o cambiados aquí. Super Admins y los grupos seleccionados en 'Permitir Acceso Completo Para Grupos' tienen acceso a todos los calendarios. Grupos seleccionados en 'Negar Acseso Completo Para Grupos' no tendran acceso a ninguno de los calendarios.",
 
 'allowed_groups' =>
 "Grupos Permitidos",
@@ -381,16 +381,16 @@ $L = $lang = array(
 'Permisos de Grupo',
 
 'permissions_instructions' =>
-"Elige los grupos que desea que tengan acceso para editar calendario y sus eventos. (Los Super Admin siempre tienen acceso a todos los calendarios). Si no aparece un grupo, estar&aacute; en la lista Permitir Todo o Negar Todo en la pesta&ntilde;a del panel de control del Calendario.",
+"Elige los grupos que desea que tengan acceso para editar calendario y sus eventos. (Los Super Admin siempre tienen acceso a todos los calendarios). Si no aparece un grupo, estará en la lista Permitir Todo o Negar Todo en la pestaña del panel de control del Calendario.",
 
 'disallowed_behavior_for_edit_page' =>
-"Comportamiento No Permitido para la P&aacute;gina de Editar",
+"Comportamiento No Permitido para la Página de Editar",
 
 'none' =>
 "Ninguno",
 
 'search_filter' =>
-"Filtro de B&uacute;squeda",
+"Filtro de Búsqueda",
 
 'disable_link' =>
 "Inhabilitar Enlace",
@@ -411,19 +411,19 @@ $L = $lang = array(
 'Ajuste',
 
 'description' =>
-'Descripci&oacute;n',
+'Descripción',
 
 'first_day_of_week' =>
-'Primer D&iacute;a de la Semana',
+'Primer Día de la Semana',
 
 'first_day_of_week_description' =>
-'Domingo y Lunes son las opciones m&aacute;s probables.',
+'Domingo y Lunes son las opciones más probables.',
 
 'clock_type' =>
 'Tipo Reloj',
 
 'clock_type_description' =>
-'&iquest;Utilice reloj de 12 &oacute; 24 horas en el panel de control?',
+'¿Utilice reloj de 12 ó 24 horas en el panel de control?',
 
 '12_hour' =>
 '12-horas',
@@ -472,7 +472,7 @@ $L = $lang = array(
 'Guardar',
 
 'delete_selected_items' =>
-'Borrar Art&iacute;culos Seleccionados',
+'Borrar Artículos Seleccionados',
 
 //----------------------------------------
 //  Errors
@@ -482,82 +482,82 @@ $L = $lang = array(
 'Sin resultados.',
 
 'no_title' =>
-'Sin T&iacute;tulo',
+'Sin Título',
 
 'invalid_request' =>
-"Instancia Inv&aacute;lida",
+"Instancia Inválida",
 
 'calendar_module_disabled' =>
-"El m&oacute;dulo Calendario esta actualmente desactivado. Por favor, asegure de que est&aacute; instalada y actualizada, comprobandolo en el panel de control del m&oacute;dulo, en el Panel de Control de ExpressionEngine",
+"El módulo Calendario esta actualmente desactivado. Por favor, asegure de que está instalada y actualizada, comprobandolo en el panel de control del módulo, en el Panel de Control de ExpressionEngine",
 
 'disable_module_to_disable_extension' =>
-"Para desactivar esta extensi&oacute;n, debe desactivar su correspondiente <a href='%url%'>m&oacute;dulo</a>.",
+"Para desactivar esta extensión, debe desactivar su correspondiente <a href='%url%'>módulo</a>.",
 
 'enable_module_to_enable_extension' =>
-"Para activar esta extensi&oacute;n, debe instalar su correspondiente <a href='%url%'>m&oacute;dulo</a>.",
+"Para activar esta extensión, debe instalar su correspondiente <a href='%url%'>módulo</a>.",
 
 'cp_jquery_requred' =>
-"La extensi&oacute;n 'jQuery para el Panel de Control' debe estar <a href='%extensions_url%'>activado</a> para utilizar este m&oacute;dulo.",
+"La extensión 'jQuery para el Panel de Control' debe estar <a href='%extensions_url%'>activado</a> para utilizar este módulo.",
 
 'invalid_weblog_id' =>
-'ID de weblog Inv&aacute;lido',
+'ID de weblog Inválido',
 
 'invalid_entry_id' =>
-'ID de entrada Inv&aacute;lida',
+'ID de entrada Inválida',
 
 'invalid_site_id' =>
-'ID de sitio Inv&aacute;lido',
+'ID de sitio Inválido',
 
 'invalid_calendar_id' =>
-'ID de calendario Inv&aacute;lido',
+'ID de calendario Inválido',
 
 'invalid_ymd' =>
-'Fecha Inv&aacute;lida',
+'Fecha Inválida',
 
 'invalid_start_date' =>
-'Fecha inicial Inv&aacute;lida',
+'Fecha inicial Inválida',
 
 'invalid_end_date' =>
-'Fecha final Inv&aacute;lida',
+'Fecha final Inválida',
 
 'invalid_year' =>
-'A&ntilde;o Inv&aacute;lido',
+'Año Inválido',
 
 'invalid_month' =>
-'Mes Inv&aacute;lido',
+'Mes Inválido',
 
 'invalid_day' =>
-'D&iacute;a Inv&aacute;lido',
+'Día Inválido',
 
 'invalid_date' =>
-'Fecha Inv&aacute;lida',
+'Fecha Inválida',
 
 'invalid_time' =>
-'Hora Inv&aacute;lida',
+'Hora Inválida',
 
 'invalid_start_time' =>
-'Hora inicial Inv&aacute;lida',
+'Hora inicial Inválida',
 
 'invalid_end_time' =>
-'Hora final Inv&aacute;lida',
+'Hora final Inválida',
 
 'invalid_hour' =>
-'Hora Inv&aacute;lida',
+'Hora Inválida',
 
 'invalid_minute' =>
-'Minuto Inv&aacute;lido',
+'Minuto Inválido',
 
 'invalid_repeat_dates' =>
-'Fechas repetitivas Inv&aacute;lidas',
+'Fechas repetitivas Inválidas',
 
 'invalid_calendar_permissions' =>
-'No est&aacute; permitido editar o a&ntilde;adir eventos a &eacute;ste calendario',
+'No está permitido editar o añadir eventos a éste calendario',
 
 'no_permissions_for_any_calendars' =>
-"No tiene permisos para editar o a&ntilde;adir eventos en ninguno de los calendarios",
+"No tiene permisos para editar o añadir eventos en ninguno de los calendarios",
 
 'invalid_permissions_json_request' =>
-"Instancia de JSON inv&aacute;lida. Requiere group_id y EE 2.x+.",
+"Instancia de JSON inválida. Requiere group_id y EE 2.x+.",
 
 //----------------------------------------
 //  Days
@@ -570,7 +570,7 @@ $L = $lang = array(
 'Martes',
 
 'day_3_full' =>
-'Mi&eacute;rcoles',
+'Miércoles',
 
 'day_4_full' =>
 'Jueves',
@@ -579,7 +579,7 @@ $L = $lang = array(
 'Viernes',
 
 'day_6_full' =>
-'S&aacute;bado',
+'Sábado',
 
 'day_0_full' =>
 'Domingo',
@@ -689,64 +689,64 @@ $L = $lang = array(
 //----------------------------------------
 
 'suffix_0' =>
-'&deg;',
+'º',
 
 'suffix_1' =>
-'&deg;',
+'º',
 
 'suffix_2' =>
-'&deg;',
+'º',
 
 'suffix_3' =>
-'&deg;',
+'º',
 
 'suffix_4' =>
-'&deg;',
+'º',
 
 'suffix_5' =>
-'&deg;',
+'º',
 
 'suffix_6' =>
-'&deg;',
+'º',
 
 'suffix_7' =>
-'&deg;',
+'º',
 
 'suffix_8' =>
-'&deg;',
+'º',
 
 'suffix_9' =>
-'&deg;',
+'º',
 
 'suffix_10' =>
-'&deg;',
+'º',
 
 'suffix_11' =>
-'&deg;',
+'º',
 
 'suffix_12' =>
-'&deg;',
+'º',
 
 'suffix_13' =>
-'&deg;',
+'º',
 
 'suffix_14' =>
-'&deg;',
+'º',
 
 'suffix_15' =>
-'&deg;',
+'º',
 
 'suffix_16' =>
-'&deg;',
+'º',
 
 'suffix_17' =>
-'&deg;',
+'º',
 
 'suffix_18' =>
-'&deg;',
+'º',
 
 'suffix_19' =>
-'&deg;',
+'º',
 
 //----------------------------------------
 //  Months
@@ -861,10 +861,10 @@ $L = $lang = array(
 'ayer',
 
 'tomorrow' =>
-'ma&ntilde;ana',
+'mañana',
 
 'day' =>
-'d&iacute;a',
+'día',
 
 'week' =>
 'semana',
@@ -873,7 +873,7 @@ $L = $lang = array(
 'mes',
 
 'year' =>
-'a&ntilde;o',
+'año',
 
 'ago' =>
 'hace',
@@ -882,7 +882,7 @@ $L = $lang = array(
 'empieza',
 
 'last' =>
-'&uacute;ltima',
+'última',
 
 //----------------------------------------
 //  Time parameters
@@ -892,7 +892,7 @@ $L = $lang = array(
 'ahora',
 
 'noon' =>
-'mediod&iacute;a',
+'mediodía',
 
 'midnight' =>
 'medianoche',
@@ -905,7 +905,7 @@ $L = $lang = array(
 'Sumario',
 
 'location' =>
-'Ubicaci&oacute;n',
+'Ubicación',
 
 'dates_and_options' =>
 'Fechas y Opciones',
@@ -914,16 +914,16 @@ $L = $lang = array(
 'URL a archivo iCalendar (.ics)',
 
 'ics_url_desc' =>
-"A&ntilde;ade uno o m&aacute;s URLs a archivos .ics - separados por l&iacute;neas - para importar a &eacute;ste calendario. Todas las horas importadas seran ajustadas a la zona horaria de &eacute;ste calendario.",
+"Añade uno o más URLs a archivos .ics - separados por líneas - para importar a éste calendario. Todas las horas importadas seran ajustadas a la zona horaria de éste calendario.",
 
 'ics_url_stub' =>
-"Todas las horas importadas seran ajustadas a la zona horaria de &eacute;ste calendario.",
+"Todas las horas importadas seran ajustadas a la zona horaria de éste calendario.",
 
 'time_format_label' =>
 'Formato Horaria',
 
 'time_format_desc' =>
-'Formato horaria por defecto para &eacute;ste calendario.',
+'Formato horaria por defecto para éste calendario.',
 
 'timezone' =>
 'Zona Horaria',
