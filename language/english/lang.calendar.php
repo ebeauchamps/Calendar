@@ -5,9 +5,9 @@
  *
  * @package		Solspace:Calendar
  * @author		Solspace DevTeam
- * @copyright	Copyright (c) 2010-2012, Solspace, Inc.
+ * @copyright	Copyright (c) 2010-2013, Solspace, Inc.
  * @link		http://www.solspace.com/docs/addon/c/Calendar/
- * @version		1.7.1
+ * @version		1.8.0
  * @filesource 	./system/expressionengine/third_party/calendar/language/english/
  */
 
@@ -560,6 +560,9 @@ to the module's control panel in the ExpressionEngine Control Panel",
 
 'invalid_permissions_json_request' =>
 "In valid JSON request. Requires group_id and EE 2.x+.",
+
+'cannot_update_extensions_disabled' =>
+'This module cannot update while extensions are disabled.',
 
 //----------------------------------------
 //  Days
