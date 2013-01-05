@@ -1,14 +1,15 @@
 <?php
 
- /**
- * Solspace - Calendar
+/**
+ * Calendar - Language
  *
  * @package		Solspace:Calendar
- * @author		Solspace DevTeam
+ * @author		Solspace, Inc.
  * @copyright	Copyright (c) 2010-2013, Solspace, Inc.
- * @link		http://www.solspace.com/docs/addon/c/Calendar/
+ * @link		http://solspace.com/docs/calendar
+ * @license		http://www.solspace.com/license_agreement
  * @version		1.8.0
- * @filesource 	./system/expressionengine/third_party/calendar/language/english/
+ * @filesource	calendar/language/english/lang.calendar.php
  */
 
 $L = $lang = array(
