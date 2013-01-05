@@ -7,7 +7,7 @@
  * @author		Solspace DevTeam
  * @copyright	Copyright (c) 2010-2012, Solspace, Inc.
  * @link		http://www.solspace.com/docs/addon/c/Calendar/
- * @version		1.7.1
+ * @version		1.8.0
  * @filesource 	./system/expressionengine/third_party/calendar/language/english/
  */
 
@@ -560,6 +560,9 @@ $L = $lang = array(
 'invalid_permissions_json_request' =>
 "Requête JSON invalide. Le group_id et EE 2.x+ sont exigés.",
 
+'cannot_update_extensions_disabled' =>
+'Ce module ne peut pas être mis à jour tant que les extensions sont désactivées.',
+
 //----------------------------------------
 //  Days /** Normalement, pas de majuscule. Sauf si c'est le 1er mot de la phrase. Choix fait de la conserver */
 //----------------------------------------
@@ -661,7 +664,7 @@ $L = $lang = array(
 'Dim',
 
 //----------------------------------------
-//  Days - 1 letter
+//  Days - 1 letter /** Risque de confusion entre mardi et mercredi : choix fait de mettre mercredi sur 2 lettres */
 //----------------------------------------
 
 'day_1_1' =>
