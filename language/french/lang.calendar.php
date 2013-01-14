@@ -1,14 +1,14 @@
 <?php
 
  /**
- * Solspace - Calendar
+ * Calendar - Language
  *
  * @package		Solspace:Calendar
- * @author		Solspace DevTeam
- * @copyright	Copyright (c) 2010-2012, Solspace, Inc.
- * @link		http://www.solspace.com/docs/addon/c/Calendar/
+ * @author		Solspace, Inc.
+ * @copyright	Copyright (c) 2010-2013, Solspace, Inc.
+ * @link		http://solspace.com/docs/Calendar
  * @version		1.8.0
- * @filesource 	./system/expressionengine/third_party/calendar/language/english/
+ * @filesource 	calendar/language/french/lang.calendar.php
  */
 
 $L = $lang = array(
@@ -133,22 +133,22 @@ $L = $lang = array(
 'Répéter',
 
 'none' =>
-'Aucun',
+'jamais',
 
 'daily' =>
-'Quotidiennement',
+'quotidiennement',
 
 'weekly' =>
-'Hebdomadairement',
+'hebdomadairement',
 
 'monthly' =>
-'Mensuellement',
+'mensuellement',
 
 'yearly' =>
-'Annuellement',
+'annuellement',
 
 'select_dates' =>
-'Sélectionner les dates',
+'sélectionner les dates',
 
 'all_day_event' =>
 'Événement sur la journée entière',
@@ -166,19 +166,19 @@ $L = $lang = array(
 'jour(s)',
 
 'week_s_on' =>
-'semaine(s)', /**à voir dans le contexte : "semaine(s) à venir ?" */
+'semaine(s), le ',
 
 'at' =>
 'à',
 
 'month_s_by_day_of' =>
-'mois par jour de', /**à voir dans le contexte */
+'mois, le/la :', /**à revoir dans le contexte ; difficile à traduire */
 
 '1st' =>
-'1er',
+'1ère', /** les valeurs ici et ci-dessous s'appliquent aux numéros de semaine dans un mois donné */
 
 '2nd' =>
-'2d', /** norme typographique française : 2d/2de et non 2nd/2nde */
+'2de', /** norme typographique française : 2d/2de et non 2nd/2nde */
 
 '3rd' =>
 '3e', /** norme typographique française : 3e et non 3ième ou 3ème */
@@ -190,7 +190,7 @@ $L = $lang = array(
 '5e',
 
 'only_on' =>
-'Seulement le', /**à voir dans le contexte */
+'Seulement le ',
 
 'year_s' =>
 'année(s)',
@@ -199,16 +199,16 @@ $L = $lang = array(
 'Fin',
 
 'never' =>
-'Jamais',
+'jamais',
 
 'by_date' =>
-'par date',
+'à la date du',
 
 'after' =>
-'Après',
+'après',
 
 'time_s' =>
-'horaire(s)',
+'fois',
 
 //----------------------------------------
 //  CP Calendars
@@ -291,16 +291,16 @@ $L = $lang = array(
 'Décroissant',
 
 'or_later' =>
-'Ou plus tard',
+'ou après',
 
 'or_earlier' =>
-'Ou plus tôt',
+'ou avant',
 
 'this_date' =>
-'Cette date',
+'cette date',
 
 'time' =>
-'Horaire',
+'Horaire', /** à vérifier dans le contexte */
 
 'all_day' =>
 'Journée entière',
@@ -341,7 +341,7 @@ $L = $lang = array(
 'Limite de page',
 
 'occurrences_limit' =>
-'Limite des occurrences', /** Limite du nombre d'occurrences ? */
+'Limite du nombre d\'occurrences',
 
 // -------------------------------------
 //	Permissions
@@ -382,13 +382,16 @@ $L = $lang = array(
 'Autorisations de groupe',
 
 'permissions_instructions' =>
-"Choisissez les groupes que vous autorisez à éditer le calendrier et ses événements (Les Supers Administrateurs ont toujours accès à tous les calendriers). Si un groupe n'est pas visible, c'est qu'il se trouve déjà dans l'onglet Autorisations du panneau de contrôle calendrier (listes Les Autoriser Tous ou Les Interdire Tous).",
+"Choisissez les groupes que vous autorisez à éditer le calendrier et ses événements.
+Les Supers Administrateurs ont toujours accès à tous les calendriers. Si un groupe
+n'est pas visible, c'est qu'il se trouve déjà dans l'onglet Autorisations du panneau
+de contrôle Calendrier (listes Les Autoriser Tous ou Les Interdire Tous).",
 
 'disallowed_behavior_for_edit_page' =>
 "Comportement interdit pour la page d'édition", /** Fonctionnement plutôt que Comportement ? */
 
 'none' =>
-"Aucun",
+"jamais",
 
 'search_filter' =>
 "Filtre de recherche",
@@ -886,7 +889,7 @@ $L = $lang = array(
 'débute',
 
 'last' =>
-'dernier/dernière', /** à voir dans contexte : dernier mois / dernière année => conserver les 2 */
+'dernière',
 
 //----------------------------------------
 //  Time parameters
