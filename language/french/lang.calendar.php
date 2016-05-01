@@ -5,9 +5,11 @@
  *
  * @package		Solspace:Calendar
  * @author		Solspace, Inc.
- * @copyright	Copyright (c) 2010-2013, Solspace, Inc.
- * @link		http://solspace.com/docs/Calendar
- * @version		1.8.0
+ * @translator		Emmanuel Beauchamps (Put.itin.red studio, Nantes, France)
+ * @copyright	Copyright (c) 2010-2016, Solspace, Inc.
+ * @link		https://solspace.com/docs/calendar
+ * @license		https://solspace.com/software/license-agreement
+ * @version		1.8.14
  * @filesource 	calendar/language/french/lang.calendar.php
  */
 
@@ -468,6 +470,116 @@ de contrôle Calendrier (listes Les Autoriser Tous ou Les Interdire Tous).",
 'event_weblog_description' =>
 'Canal (ou canaux) devant être désigné(s) en tant que canal (ou canaux) pour gérer les événements',
 
+'ics_update_delete_default' =>
+"Comportement de suppression par défaut lors des MAJ ICS",
+
+'ics_update_delete_default_description' =>
+"Par défaut, la balise <a href='http://www.solspace.com/docs/calendar/ics_update/' onclick='window.open(this.href); return false;'>{exp:calendar:ics_update}</a> ne supprime pas les entrées qu'elle ne retrouve pas lors du téléchargement du fichier ICS pour les MAJ. <br/><br/>Le fait de positionner ce paramètre à 'oui' fera que la balise <strong>{exp:calendar:ics_update}</strong> supprimera les entrées déjà importées mais non retrouvées dans le dernier téléchargement du fichier ICS.",
+
+// -------------------------------------
+//	demo install (code pack)
+// -------------------------------------
+
+'demo_description' =>
+'Ces modèles de démonstration vous aideront à mieux comprendre comment l\'Add-On Calendrier de Solspace fonctionne.',
+
+'template_group_prefix' =>
+'Préfixe de groupe de modèles',
+
+'template_group_prefix_desc' =>
+'Chaque groupe de modèles et variable globale installés seront préfixés avec cette variable afin de prévenir tout phénomène de collision.',
+
+'groups_and_templates' =>
+"Groupes et modèles à installer",
+
+'groups_and_templates_desc' =>
+"Ces groupes de modèles et leurs modèles associés seront installés dans votre installation ExpressionEngine.",
+
+'screenshot' =>
+'Capture écran',
+
+'install_demo_templates' =>
+'Installer les modèles de démo',
+
+'prefix_error' =>
+'Les préfixes, qui sont utilisés pour les groupes de modèles, ne peuvent contenir que des caractères alpha-numériques, des soulignés (underscores) et des tirets.',
+
+'demo_templates' =>
+'Modèles de démo',
+
+//errors
+'ee_not_running'				=>
+'ExpressionEngine 2.x ne semble pas être en cours de fonctionnement.',
+
+'invalid_code_pack_path'		=>
+'Chemin du Code Pack invalide',
+
+'invalid_code_pack_path_exp'	=>
+'Aucun codepack valide trouvé dans \'%path%\'.',
+
+'missing_code_pack'				=>
+'Code Pack absent',
+
+'missing_code_pack_exp'			=>
+'Vous n\'avez choisi aucun code pack à installer.',
+
+'missing_prefix'				=>
+'Préfixe obligatoire',
+
+'missing_prefix_exp'			=>
+'Merci de fournir un préfixe pour les modèles et données \'tests\' qui seront créés.',
+
+'invalid_prefix'				=>
+'Préfixe invalide',
+
+'invalid_prefix_exp'			=>
+'Le préfixe communiqué n\'est pas valide.',
+
+'missing_theme_html'			=>
+'Répertoire absent',
+
+'missing_theme_html_exp'		=>
+'Il devrait y avoir un répertoire \'html\' dans le répertoire \'/themes/solspace_themes/code_pack/%code_pack_name%\' de votre site. Assurez-vous qu\'il est en place et qu\'il contient des répertoires supplémentaires qui reflètent les groupes de modèles qui seront créés par ce code pack.',
+
+'missing_codepack_legacy'		=>
+'La bibliothèque CodePackLegacy nécessaire à l\'installation de ce codepack est absente.',
+
+//@deprecated
+'missing_code_pack_theme'		=>
+'Thème Code Pack absent',
+
+'missing_code_pack_theme_exp'	=>
+'Il devrait y a voir au moins un répertoire \'theme\' dans le répertoire \'%code_pack_name%\' situé dans \'/themes/code_pack/\'. Un thème est obligatoire pour pouvoir continuer.',
+
+//conflicts
+'conflicting_group_names'		=>
+'Noms de groupes de modèles en conflit',
+
+'conflicting_group_names_exp'	=>
+'Les noms des groupes de modèles suivants existent déjà. Merci de choisir un préfixe différent afin d\'éviter les conflits. %conflicting_groups%',
+
+'conflicting_global_var_names'	=>
+'Noms des variables globales en conflit.',
+
+'conflicting_global_var_names_exp' =>
+'Il y a des conflits entre les variables globales définies pour votre site et les variables globales de ce code pack. Merci de choisir un préfixe différent afin d\'éviter les conflits. %conflicting_global_vars%',
+
+//success messages
+'global_vars_added'				=>
+'Variables globales ajoutées',
+
+'global_vars_added_exp'			=>
+'Les variables globales suivantes ont été ajoutées avec succès. %global_vars%',
+
+'templates_added'				=>
+'Modèles ajoutés',
+
+'templates_added_exp'			=>
+'%template_count% modèles issus de ce code pack ont été ajoutés avec succès à votre site.',
+
+"home_page"						=>"Page d\'Accueil",
+"home_page_exp"					=> "Visualiser la page d\'accueil pour ce code pack ici: %link%",
+
 //----------------------------------------
 //  Buttons
 //----------------------------------------
@@ -667,7 +779,7 @@ de contrôle Calendrier (listes Les Autoriser Tous ou Les Interdire Tous).",
 'Dim',
 
 //----------------------------------------
-//  Days - 1 letter /** Risque de confusion entre mardi et mercredi : choix fait de mettre mercredi sur 2 lettres */
+//  Days - 1 letter /** Risque de confusion entre mardi et mercredi */
 //----------------------------------------
 
 'day_1_1' =>
@@ -938,3 +1050,44 @@ de contrôle Calendrier (listes Les Autoriser Tous ou Les Interdire Tous).",
 /* END */
 ''=>''
 );
+
+$lang['calendar_UM12']	= '(UTC -12:00) Fuseau horaire des îles Baker et Howland';
+$lang['calendar_UM11']	= '(UTC -11:00) Heure normale des Samoa, Niue';
+$lang['calendar_UM10']	= '(UTC -10:00) Heure normale d\'Hawaii et des îles Aléoutiennes, îles Cook, Tahiti';
+$lang['calendar_UM95']	= '(UTC -9:30) Fuseau horaire des îles Marquises';
+$lang['calendar_UM9']	= '(UTC -9:00) Heure normale de l\'Alaska, îles Gambier';
+$lang['calendar_UM8']	= '(UTC -8:00) Heure normale du Pacifique, île de Clipperton';
+$lang['calendar_UM7']	= '(UTC -7:00) Heure normale des Montagnes Rocheuses';
+$lang['calendar_UM6']	= '(UTC -6:00) Heure normale du Centre';
+$lang['calendar_UM5']	= '(UTC -5:00) Heure normale de l\'Est de l\'Amérique du Nord';
+$lang['calendar_UM45']	= '(UTC -4:30) Fuseau horaire du Vénézuéla';
+$lang['calendar_UM4']	= '(UTC -4:00) Heure normale de l\'Atlantique';
+$lang['calendar_UM35']	= '(UTC -3:30) Heure normale de Terre-Neuve';
+$lang['calendar_UM3']	= '(UTC -3:00) Fuseau horaire Argentine, Brésil, Guyane française, Uruguay, Groënland';
+$lang['calendar_UM2']	= '(UTC -2:00) Fuseau horaire Géorgie du Sud et les îles Sandwich du Sud';
+$lang['calendar_UM1']	= '(UTC -1:00) Fuseau horaire des Açores, îles du Cap-Vert';
+$lang['calendar_UTC']	= '(UTC) Heure de l\'Europe occidentale, Heure du méridien de Greenwich';
+$lang['calendar_UP1']	= '(UTC +1:00) Heure de l\'Europe centrale et de l\'Afrique de l\'Ouest';
+$lang['calendar_UP2']	= '(UTC +2:00) Heure de l\'Europe orientale, Heure d\'Afrique centrale, Heure normale d\'Egypte et d\'Afrique du Sud';
+$lang['calendar_UP3']	= '(UTC +3:00) Heure d\'Afrique de l\'est, Heure de Moscou et St Pétersbourg';
+$lang['calendar_UP35']	= '(UTC +3:30) Fuseau horaire de l\'Iran';
+$lang['calendar_UP4']	= '(UTC +4:00) Fuseau horaire de l\'Arménie, Azerbaïdjan, EAU, Oman, Maurice, Seychelles, La Réunion, Heure de Samara';
+$lang['calendar_UP45']	= '(UTC +4:30) Fuseau horaire de l\'Afghanistan';
+$lang['calendar_UP5']	= '(UTC +5:00) Fuseau horaire du Pakistan, Ouzbékistan, Tadjikistan, Turkménistan, Maldives, Kerguélen, Heure de Iékatérinbourg';
+$lang['calendar_UP55']	= '(UTC +5:30) Heure normale de l\'Inde, Heure normale du Sri Lanka';
+$lang['calendar_UP575']	= '(UTC +5:45) Fuseau horaire du Népal';
+$lang['calendar_UP6']	= '(UTC +6:00) Fuseau horaire du Bangladesh, Bhoutan, Kirghizstan, Novosibirsk, Heure d\'Omsk';
+$lang['calendar_UP65']	= '(UTC +6:30) Fuseau horaire de la Birmanie et des îles Cocos';
+$lang['calendar_UP7']	= '(UTC +7:00) Fuseau horaire du Cambodge, Laos, Thailande, Vietnam, Heure de Krasnoïarsk';
+$lang['calendar_UP8']	= '(UTC +8:00) Heure normale de l\'Australie occidentale et de la Chine, Brunei, Malaisie, Singapour, Taiwan, Heure d\'Irkoutz';
+$lang['calendar_UP875']	= '(UTC +8:45) Fuseau horaire de l\'Australie occidentale (Caiguna, Eucla, Mundrabilla, Border Village)';
+$lang['calendar_UP9']	= '(UTC +9:00) Heure normale du Japon, Corée du Nord et du Sud, Timor oriental, Heure de Iakoutsk';
+$lang['calendar_UP95']	= '(UTC +9:30) Heure normale de l\'Australie centrale';
+$lang['calendar_UP10']	= '(UTC +10:00) Heure normale de l\'Australie orientale, Guam, Papouasie-Nouvelle Guinée, Heure de Vladivostok';
+$lang['calendar_UP105']	= '(UTC +10:30) Fuseau horaire de l\'île Lord Howe (Nouvelle-Galles du Sud)';
+$lang['calendar_UP11']	= '(UTC +11:00) Fuseau horaire de la Nouvelle-Calédonie, îles Salomon, Vanuatu, Heure de Srednekolymsk';
+$lang['calendar_UP115']	= '(UTC +11:30) Fuseau horaire de l\'île Norfolk';
+$lang['calendar_UP12']	= '(UTC +12:00) Heure normale de la Nouvelle-Zélande, fuseau horaire des Fidji, îles Gilbert, Marshall, Wallis-et-Futuna, Wake, Tuvalu, Heure de Petropavlovsk-Kamchatskiï';
+$lang['calendar_UP1275']	= '(UTC +12:45) Fuseau horaire des îles Chatham';
+$lang['calendar_UP13']	= '(UTC +13:00) Fuseau horaire des Tonga et Samoa, îles Phoenix';
+$lang['calendar_UP14']	= '(UTC +14:00) Fuseau horaire des îles de la Ligne (île Christmas)';
