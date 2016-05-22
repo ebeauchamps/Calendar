@@ -132,7 +132,7 @@ $L = $lang = array(
 'Exclure',
 
 'repeat' =>
-'Répéter',
+'Répéter ',
 
 'none' =>
 'jamais',
@@ -156,10 +156,10 @@ $L = $lang = array(
 'Événement sur la journée entière',
 
 'from' =>
-'À partir de',
+'Du ',
 
 'to' =>
-'Jusqu\'à',
+'Au ',
 
 'every' =>
 'Tous/toutes les',
